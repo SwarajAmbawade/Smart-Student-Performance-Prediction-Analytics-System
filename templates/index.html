@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Performance Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="project-header">STUDENT AI PREDICTOR</div>
+    
+    <div class="container">
+        <h2 style="margin-bottom: 30px; font-weight: 800;">Performance Prediction</h2>
+        <form action="/predict" method="post">
+            <div style="text-align: left; font-size: 0.85rem; color: #64748b; margin-left: 5px;">ATTENDANCE</div>
+            <input type="number" name="attendance" placeholder="e.g. 85%" required>
+            
+            <div style="text-align: left; font-size: 0.85rem; color: #64748b; margin-left: 5px; margin-top: 10px;">INTERNAL MARKS</div>
+            <input type="number" name="marks" placeholder="e.g. 18" required>
+            
+            <div style="text-align: left; font-size: 0.85rem; color: #64748b; margin-left: 5px; margin-top: 10px;">STUDY HOURS</div>
+            <input type="number" name="hours" placeholder="e.g. 5" required>
+            
+            <button type="submit">Analyze Performance</button>
+        </form>
+    </div>
+</body>
+</html>
