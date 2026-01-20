@@ -1,0 +1,9 @@
+attendance,marks,study_hours,probability,status,grade
+85.0,55.0,1.0,100.0,PASS,A
+75.0,60.0,3.0,99.99,PASS,A
+90.0,50.0,1.0,100.0,PASS,A
+40.0,45.0,2.0,100.0,FAIL,D
+10.0,25.0,1.0,100.0,FAIL,D
+85.0,90.0,3.0,100.0,PASS,A
+85.0,18.0,3.0,64.41,PASS,C
+75.0,20.0,2.0,95.51,FAIL,D
